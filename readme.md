@@ -55,13 +55,7 @@ output:
     Daren Goodwin
     Earnest Reed
     Richard Robinson
-    Robert Carver
-    Dennis Oliver
-    James Sorensen
-    Thad Souther
-    Edward Carper
-    Mark Muzzey
-    Joshua Collier
+   
 
     Femail Name
 
@@ -71,15 +65,8 @@ output:
     Edith Warren
     Jane Hopkins
     Sonia Derringer
-    Lindsay Jones
-    Astrid Lipscomb
-    Margaret Crum
-    Cari Sorenson
-    Amanda Blaschke
-    Rebecca Moore
-    Melissa Kemp
-    Debbie Daniels
-    Amber West
+  
+   
 
 ### #2 
 #### Auto User Create : 
@@ -104,3 +91,27 @@ or Create user with full access permissions
 ### output: 
 
 ![](./permissions.png)
+
+###### You can clone this project if you want and follow the steps below to run.
+
+#### Creating a virtual environmen
+     py -m venv env 
+
+#### Activating a virtual environment
+    .\env\Scripts\activate 
+ 
+####  install requirements.txt
+    pip install -r requirements.txt 
+    
+#### database create 
+    py manage.py makemigrations
+    
+    py manage.py migration
+#### now create superuser then runserver
+####  Run server
+    py manage.py runserver 
+
+
+#### localhost: 
+    http://127.0.0.1:8000/
+****
