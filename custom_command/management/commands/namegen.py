@@ -15,7 +15,7 @@ class Command (BaseCommand):
         self.stdout.write('----------New name---------- \nName: %s \nname Generate Succesfully Completed! \n\n'% (name))
 
 #real name gen
-        print("\nMail Name \n ")
+        print("\nMale Name \n ")
 
         for i in range(15):
             rand_name=names.get_full_name(gender='male')
@@ -23,7 +23,7 @@ class Command (BaseCommand):
         
 
 
-        print("\n Femail Name \n")
+        print("\n Female Name \n")
         for i in range(15):
             rand_name = names.get_full_name(gender='female')
             print(rand_name)
