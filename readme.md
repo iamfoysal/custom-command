@@ -90,7 +90,7 @@ output:
 note: ( usergen 1) Here 1 is the quantity
 
 ![](./without_permissions.png)
-###output 
+### output 
     ===========New User========== 
     username: bdrtL3m5PW
     email: bdrtL3m5PW@gmail.com
